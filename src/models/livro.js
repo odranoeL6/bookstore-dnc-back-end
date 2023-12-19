@@ -23,6 +23,6 @@ const schema = new mongoose.Schema({
     timestamps: true
 });
 
-const livroSchema = mongoose.models.livro || mongoose.model('livro', schema);
+const livroSchema = mongoose.models.Livro || mongoose.model('Livro', schema);
 
 module.exports = livroSchema;
