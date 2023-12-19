@@ -12,13 +12,17 @@ let endpointsFiles = ['../index.js', '../src/routes.js'];
 let doc = {
     info: {
         version: "1.0.0",
-        title: "Back-End da Biblioteca DNC",
+        title: "API da Biblioteca DNC",
         description: "Documentação da API da Biblioteca DNC."
     },
     servers: [
         {
             url: "http://localhost:3000/",
             description: "Servidor localhost."
+        },
+        {
+            url: "https://bookstore-dnc-api.vercel.app",
+            description: "Servidor de produção."
         }
     ],
     consumes: ['application/json'],
